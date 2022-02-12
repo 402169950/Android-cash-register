@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="title_activity_cash_regsiter">CashRegsiterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <!--   CashRegisterActivity -->
+    <!--   CasgRegusterActivity Layout -->
+    <string name="cashreg_manager">MANAGER</string>
+    <string name="cashreg_buy">BUY</string>
+    <string name="item_type_default">Product Type</string>
+    <!--   ManagerActivity Layout -->
+    <string name="manager_history">HISTORY</string>
+    <string name="manager_restock">RESTOCK</string>
+    <!--    HistoryDetailActivity Layout-->
+    <string name="history_detail_product">Product: </string>
+    <string name="history_detail_price">Price: </string>
+    <string name="history_detail_purchase_date">Purchase Date: </string>
+<!--    RestockActivity Layout-->
+    <string name="restock_quantity_hint">Enter New Quantity</string>
+    <string name="restock_confirm_btn">OK</string>
+    <string name="restock_cancel_btn">CANCEL</string>
+    <!--    Prompts -->
+    <string name="no_selection_product_prompt">Select a product first!</string>
+    <string name="no_selection_quantity_prompt">Quantity can\'t be 0</string>
+    <string name="selection_out_of_stock">Product is out of stock.</string>
+    <string name="restock_no_selection">Select a product first.</string>
+    <string name="restock_no_quantity">Input a quantity number.</string>
+    <string name="restock_zero_quantity">Quantity can\'t be 0.</string>
+    <string name="restock_restocked">Product restocked.</string>
+
+<!--    Common-->
+    <string name="currency_symbol">$</string>
+
+    <!--    Dialog buttons-->
+    <string name="dialog_negative">Got it.</string>
+    <string name="purchase_confirmation_msg_prefix">Your purchase is\ </string>
+    <string name="purchase_confirmation_msg_preposition">for</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+</resources>

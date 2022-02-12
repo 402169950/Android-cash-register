@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tongliu.cashregister">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CashRegister.ActionBar">
+        <activity
+            android:label="@string/app_name"
+            android:name=".view.activity.RestockActivity"
+            android:exported="false" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".view.activity.HistoryDetailActivity"
+            android:exported="false" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".view.activity.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".view.activity.ManagertActivity"
+            android:exported="false" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".view.activity.CashRegisterActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
